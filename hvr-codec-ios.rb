@@ -8,7 +8,7 @@ class HvrCodecIos < Formula
   bottle do
     root_url "https://s3-us-west-2.amazonaws.com/hvr-codec-ios"
     cellar :any_skip_relocation
-    sha256 "ad6f2622b2e19c04aca72b48969a8957ece69a924cbadfe5134e182c00aa48cb" => :high_sierra
+    sha256 "347b2ef363a945be18d783bc221962ddb5d84490aec1e6773323c0e2fb678d87" => :high_sierra
   end
 
   depends_on "cmake"     => :build
