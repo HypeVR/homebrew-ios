@@ -8,7 +8,7 @@ class FfmpegIos < Formula
   bottle do
     root_url "https://s3-us-west-2.amazonaws.com/ffmpeg-ios"
     cellar :any_skip_relocation
-    sha256 "dfd5bfc7a049cad90469b263b8be5f702f61879fc586200b102015ca2ce9f2bd" => :high_sierra
+    sha256 "347b2ef363a945be18d783bc221962ddb5d84490aec1e6773323c0e2fb678d87" => :high_sierra
   end
 
   depends_on "cmake"     => :build
