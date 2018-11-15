@@ -1,15 +1,9 @@
 class FfmpegIos < Formula
-  desc "Ffmpeg 3.4.2 for Ios"
-  homepage "http://github.com/caoyangjiang/ffmpeg-ios"
-  url "https://github.com/caoyangjiang/ffmpeg-ios/archive/0.0.3.tar.gz"
+  desc "Ffmpeg 4.0.3 for Ios"
+  homepage "http://github.com/hypevr/ffmpeg-iOS"
+  url "https://github.com/hypevr/ffmpeg-iOS/archive/0.0.1.tar.gz"
   sha256 "3ea19182ea122d1086fcf8cc6167c7238b6d62ea23a0fdb6bfe49654ce45c00d"
-  head "http://github.com/caoyangjiang/ffmpeg-ios.git"
-
-  bottle do
-    root_url "https://s3-us-west-2.amazonaws.com/ffmpeg-ios"
-    cellar :any_skip_relocation
-    sha256 "347b2ef363a945be18d783bc221962ddb5d84490aec1e6773323c0e2fb678d87" => :high_sierra
-  end
+  head "http://github.com/hypevr/ffmpeg-iOS.git"
 
   depends_on "cmake"     => :build
 
