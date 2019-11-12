@@ -1,4 +1,4 @@
-class SDL2Ios < Formula
+class Sdl2Ios < Formula
   desc "SDL2 2.0.10 for Ios"
   homepage "http://github.com/hypevr/sdl2-iOS"
   url "https://github.com/hypevr/sdl2-ios/archive/0.0.1.tar.gz"
